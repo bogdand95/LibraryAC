@@ -1,0 +1,20 @@
+@using LibraryAC.Models.LibraryViewModels
+@model BorrowViewModel
+@{
+    ViewData["Title"] = "Borrow";
+}
+
+@if (Model.IsSuccessfull)
+{
+    <div class="alert alert-success" role="alert">You successfully borrowed "@Model.BookName"</div>
+}
+else
+{
+    <div class="alert alert-danger" role="alert">An error occurred while borrowing the book</div>
+}
+
+<div>
+
+    @Html.ActionLink("Go Back", "Index", "Library", new EmptyResult(),new { @class = "btn btn-success" })
+
+</div>

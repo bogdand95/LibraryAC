@@ -1,0 +1,46 @@
+
+@{
+    ViewData["Title"] = "AddBook";
+}
+
+<h2>Add Book</h2>
+
+
+
+<div class="container">
+
+    <form asp-controller="Library" asp-action="Add" class="form-horizontal" method = "post">
+
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="author">Author:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="author" placeholder="Enter author" name="author" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-sm-2">Name:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-sm-2">Copies:</label>
+            <div class="col-sm-10">
+                <input type="number" class="form-control" id="copies" placeholder="Number of copies" name="copies" min="1" max="10" required>
+            </div>
+        </div>
+
+        
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-primary" >Add</button>
+
+            
+
+            </div>
+        </div>
+    </form>
+</div>
+

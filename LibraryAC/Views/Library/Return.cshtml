@@ -1,0 +1,21 @@
+@using LibraryAC.Models.LibraryViewModels;
+@model ReturnViewModel
+
+@{
+    ViewData["Title"] = "Return";
+}
+
+<h2>Return</h2>
+
+
+@if (Model.IsSuccessful)
+{
+    <div class="alert alert-success" role="alert">You successfully returned "@Model.BookName"</div>
+}
+else
+{
+    <div class="alert alert-danger" role="alert">An error occurred while returning the book</div>
+}
+<div>
+    @Html.ActionLink("Go Back", "Index", "Library", new EmptyResult(), new { @class = "btn btn-success" })
+</div>

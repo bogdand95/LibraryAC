@@ -1,0 +1,17 @@
+@using LibraryAC.Models.LibraryViewModels
+@model AddViewModel
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h2>Add</h2>
+    @if(Model.IsSuccessful)
+    {
+        <div class="alert alert-success" role="alert">You successfully added the following book: "@Model.Name"</div>
+    }
+    else
+    {
+        <div class="alert alert-danger" role="alert">An error occurred while adding the book</div>
+    }
+
+@Html.ActionLink("Go to Library", "Index", "Library", new EmptyResult(), new { @class = "btn btn-success" })

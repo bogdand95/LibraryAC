@@ -1,0 +1,59 @@
+@using LibraryAC.Models.LibraryViewModels
+@model LibraryViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>Index</h2>
+<div class="table-responsive">
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Author</th>
+            <th>Action</th>
+            <th>Copies</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model.Books)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => book.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => book.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => book.Author)
+                </td>
+                <td>
+
+
+                    @if ((!book.IsBorrowed && book.NumberOfCopies > 0 && Model.borrowedBooks <2 ) || (!book.IsBorrowedByMe && book.NumberOfCopies > 0 && Model.borrowedBooks < 2))
+                    {
+                        @Html.ActionLink("Borrow", "Borrow", new { id = book.Id }, new { @class = "btn btn-primary"})
+                    }
+                    else if(book.IsBorrowedByMe)
+                    {
+                        @Html.ActionLink("Return", "Return", new { id = book.Id }, new { @class = "btn btn-warning" })
+
+                    }
+                    else 
+                    {
+                        <button class="btn btn-primary" disabled>Borrow</button>
+                    }
+                 
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => book.NumberOfCopies)
+                    
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+</div>

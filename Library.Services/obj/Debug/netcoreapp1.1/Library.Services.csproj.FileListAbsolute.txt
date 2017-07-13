@@ -1,0 +1,14 @@
+C:\Users\Bogdan\Desktop\PracticaAC2017-master\PracticaAC2017-master\Code\Library.Services\bin\Debug\netcoreapp1.1\Library.Services.deps.json
+C:\Users\Bogdan\Desktop\PracticaAC2017-master\PracticaAC2017-master\Code\Library.Services\bin\Debug\netcoreapp1.1\Library.Services.dll
+C:\Users\Bogdan\Desktop\PracticaAC2017-master\PracticaAC2017-master\Code\Library.Services\bin\Debug\netcoreapp1.1\Library.Services.pdb
+C:\Users\Bogdan\Desktop\PracticaAC2017-master\PracticaAC2017-master\Code\Library.Services\obj\Debug\netcoreapp1.1\Library.Services.AssemblyInfo.cs
+C:\Users\Bogdan\Desktop\PracticaAC2017-master\PracticaAC2017-master\Code\Library.Services\obj\Debug\netcoreapp1.1\Library.Services.dll
+C:\Users\Bogdan\Desktop\PracticaAC2017-master\PracticaAC2017-master\Code\Library.Services\obj\Debug\netcoreapp1.1\Library.Services.pdb
+C:\Users\Bogdan\Desktop\PracticaAC2017-master\PracticaAC2017-master\Code\Library.Services\obj\Debug\netcoreapp1.1\Library.Services.csprojResolveAssemblyReference.cache
+G:\practica2017\PracticaAC2017-master\PracticaAC2017-master\Code\Library.Services\bin\Debug\netcoreapp1.1\Library.Services.deps.json
+G:\practica2017\PracticaAC2017-master\PracticaAC2017-master\Code\Library.Services\bin\Debug\netcoreapp1.1\Library.Services.dll
+G:\practica2017\PracticaAC2017-master\PracticaAC2017-master\Code\Library.Services\bin\Debug\netcoreapp1.1\Library.Services.pdb
+G:\practica2017\PracticaAC2017-master\PracticaAC2017-master\Code\Library.Services\obj\Debug\netcoreapp1.1\Library.Services.csprojResolveAssemblyReference.cache
+G:\practica2017\PracticaAC2017-master\PracticaAC2017-master\Code\Library.Services\obj\Debug\netcoreapp1.1\Library.Services.AssemblyInfo.cs
+G:\practica2017\PracticaAC2017-master\PracticaAC2017-master\Code\Library.Services\obj\Debug\netcoreapp1.1\Library.Services.dll
+G:\practica2017\PracticaAC2017-master\PracticaAC2017-master\Code\Library.Services\obj\Debug\netcoreapp1.1\Library.Services.pdb
